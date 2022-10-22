@@ -44,7 +44,7 @@ resource "aws_instance" "test-3" {
   ami           = "ami-026b57f3c383c2eec"
   instance_type = "t2.micro"
   tags = {
-    "Name" = "Automation"
+    "Name" = "Tolulope"
   }
 }
 
