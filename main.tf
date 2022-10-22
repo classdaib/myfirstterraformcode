@@ -28,7 +28,7 @@ resource "aws_instance" "test-1" {
   ami           = "ami-026b57f3c383c2eec"
   instance_type = "t3.nano"
   tags = {
-    "Name" = "mysecondinstance"
+    "Name" = "Olawale"
   }
 }
 
@@ -44,7 +44,7 @@ resource "aws_instance" "test-3" {
   ami           = "ami-026b57f3c383c2eec"
   instance_type = "t2.micro"
   tags = {
-    "Name" = "confirmimport"
+    "Name" = "Automation"
   }
 }
 
