@@ -55,3 +55,27 @@ resource "aws_instance" "test-4" {
     "Name" = "Carita"
   }
 }
+
+resource "aws_instance" "test-5" {
+  ami           = "ami-026b57f3c383c2eec"
+  instance_type = "t2.micro"
+  tags = {
+    "Name" = "Isaac"
+  }
+}
+
+resource "aws_instance" "test-6" {
+  ami           = "ami-026b57f3c383c2eec"
+  instance_type = "t2.micro"
+  tags = {
+    "Name" = "Ade"
+  }
+}
+
+resource "aws_instance" "test-7" {
+  ami           = "ami-026b57f3c383c2eec"
+  instance_type = "t2.micro"
+  tags = {
+    "Name" = "Taiwo"
+  }
+}
