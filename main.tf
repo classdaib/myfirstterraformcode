@@ -79,3 +79,11 @@ resource "aws_instance" "test-7" {
     "Name" = "Taiwo"
   }
 }
+
+resource "aws_instance" "test-8" {
+  ami           = "ami-026b57f3c383c2eec"
+  instance_type = "t2.micro"
+  tags = {
+    "Name" = "Toyin"
+  }
+}
